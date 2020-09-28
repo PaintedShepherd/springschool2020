@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F36AD1CF-7E46-2379-81A9-C14D21DA3E07}</ProjectGuid>
+    <ProjectGuid>{31479D65-D6CF-367D-38CC-000479C7AC8B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonVoice.PUN</AssemblyName>
@@ -612,19 +612,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonVoice.csproj">
-      <Project>{8B065477-EF9F-8D69-5C2E-782D21C97057}</Project>
+      <Project>{C80B2578-EE35-F1FD-97AA-47FD1D6C3C50}</Project>
       <Name>PhotonVoice</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{5CCB1AC7-8A9D-7D45-C8E9-75EA0B4363A0}</Project>
+      <Project>{F50964E8-A34B-95B7-D7CA-FEC0CF01C11F}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{511A727D-F5CA-0650-1354-4BE669238D93}</Project>
+      <Project>{E7DA29E9-570A-A2EF-2DA4-BC8999EC6360}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonVoice.API.csproj">
-      <Project>{799F208C-68CE-B0A7-2487-6A3E46BDBD28}</Project>
+      <Project>{17E59673-9980-A129-CF94-ACFA8515EA68}</Project>
       <Name>PhotonVoice.API</Name>
     </ProjectReference>
   </ItemGroup>

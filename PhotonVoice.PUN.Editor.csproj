@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{10E5B999-0093-7874-48B8-DD93D0FB52EB}</ProjectGuid>
+    <ProjectGuid>{1D8A2553-376E-1323-6647-2B4E1366859B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonVoice.PUN.Editor</AssemblyName>
@@ -629,23 +629,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonVoice.PUN.csproj">
-      <Project>{F36AD1CF-7E46-2379-81A9-C14D21DA3E07}</Project>
+      <Project>{31479D65-D6CF-367D-38CC-000479C7AC8B}</Project>
       <Name>PhotonVoice.PUN</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonVoice.Editor.csproj">
-      <Project>{51973DFF-D822-1F13-9FD0-1429B26D50C9}</Project>
+      <Project>{520722CD-9C96-0109-6C11-E7D483F548F9}</Project>
       <Name>PhotonVoice.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonVoice.csproj">
-      <Project>{8B065477-EF9F-8D69-5C2E-782D21C97057}</Project>
+      <Project>{C80B2578-EE35-F1FD-97AA-47FD1D6C3C50}</Project>
       <Name>PhotonVoice</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{511A727D-F5CA-0650-1354-4BE669238D93}</Project>
+      <Project>{E7DA29E9-570A-A2EF-2DA4-BC8999EC6360}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{5CCB1AC7-8A9D-7D45-C8E9-75EA0B4363A0}</Project>
+      <Project>{F50964E8-A34B-95B7-D7CA-FEC0CF01C11F}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{80EF6810-3C28-5385-77A6-8330220F3DD8}</ProjectGuid>
+    <ProjectGuid>{5640EAD2-5474-A57B-4245-63885C552D7A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonChat</AssemblyName>
@@ -624,7 +624,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonWebSocket.csproj">
-      <Project>{FB092B5B-B25D-6F52-67C0-F17B517F4A95}</Project>
+      <Project>{405BA54F-FC35-1273-C51B-32FAD1AEFC41}</Project>
       <Name>PhotonWebSocket</Name>
     </ProjectReference>
   </ItemGroup>
