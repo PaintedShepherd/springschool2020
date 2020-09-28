@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5136835758938198736}
   - component: {fileID: 5136835758938198739}
   - component: {fileID: 5136835758938198746}
-  - component: {fileID: 5136835758938198741}
+  - component: {fileID: 530590740572300363}
   m_Layer: 0
   m_Name: GrabbableCube
   m_TagString: Untagged
@@ -204,15 +204,15 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  observableSearch: 2
+  observableSearch: 0
   Synchronization: 3
   OwnershipTransfer: 1
   ObservedComponents:
-  - {fileID: 5136835758938198741}
+  - {fileID: 530590740572300363}
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &5136835758938198741
+--- !u!114 &530590740572300363
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -221,9 +221,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 5136835758938198738}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Script: {fileID: 11500000, guid: ee756a9e5cfe2de43abac6563d578715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SynchronizePosition: 1
-  m_SynchronizeRotation: 1
-  m_SynchronizeScale: 0

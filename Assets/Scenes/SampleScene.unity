@@ -2178,10 +2178,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5136835758938198736, guid: 46d809f89d3ce024891dc1cabcfd2543, type: 3}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5136835758938198738, guid: 46d809f89d3ce024891dc1cabcfd2543, type: 3}
       propertyPath: m_Name
       value: GrabbableCube (1)
@@ -2232,7 +2228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5136835758938198746, guid: 46d809f89d3ce024891dc1cabcfd2543, type: 3}
       propertyPath: viewIdField
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46d809f89d3ce024891dc1cabcfd2543, type: 3}
@@ -2829,7 +2825,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3288265207171826855, guid: 885328021ddabdb42ab3efb7a595c92d, type: 3}
       propertyPath: viewIdField
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3288265207171826857, guid: 885328021ddabdb42ab3efb7a595c92d, type: 3}
       propertyPath: m_LocalPosition.x
