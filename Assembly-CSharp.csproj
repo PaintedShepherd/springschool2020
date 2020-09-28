@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\PhotonAutoConnector.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\BackgroundMusicController.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
+    <Compile Include="Assets\ColorEvent.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
     <Compile Include="Assets\Scripts\PictureReceiver.cs" />
     <Compile Include="Assets\Samples\XR Plugin Management\3.2.9\Example XR Management implementation\SampleSettings.cs" />
@@ -80,11 +81,13 @@
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoProximityVoiceChat\Scripts\ChangeColor.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\CharacterInstantiation.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\Highlighter.cs" />
+    <Compile Include="Assets\SpawnEvent.cs" />
     <Compile Include="Assets\Scripts\Autonomous UI\DocLinkButton.cs" />
     <Compile Include="Assets\Scripts\Autonomous UI\Generic\ToggleExpand.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
     <Compile Include="Assets\Scripts\Autonomous UI\Generic\IntInputField.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\UiExtensions.cs" />
+    <Compile Include="Assets\TagChanger.cs" />
     <Compile Include="Assets\Scripts\RotationSynchronizer.cs" />
     <Compile Include="Assets\Scripts\Autonomous UI\BackgroundTimeOutField.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
@@ -122,6 +125,7 @@
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\RemoteSpeakerUI.cs" />
     <Compile Include="Assets\Scripts\BlackboardRotation.cs" />
     <Compile Include="Assets\Scripts\ButtonActivationArea.cs" />
+    <Compile Include="Assets\EventSynchronizer.cs" />
     <Compile Include="Assets\Scripts\Autonomous UI\CurrentRoom\CurrentRoomIsOpenToggle.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\OrthographicController.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
@@ -131,13 +135,10 @@
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
     <Compile Include="Assets\Scripts\Autonomous UI\AutoSyncSceneToggle.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\SoundsForJoinAndLeave.cs" />
+    <Compile Include="Assets\ShootingEvent.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
     <Compile Include="Assets\Scripts\Autonomous UI\LayoutElementMatchSize.cs" />
-    <Compile Include="Assets\TagChanger.cs" />
-    <Compile Include="Assets\ColorEvent.cs" />
-    <Compile Include="Assets\EventSynchronizer.cs" />
-    <Compile Include="Assets\SpawnEvent.cs" />
-    <Compile Include="Assets\ShootingEvent.cs" />
+    <Compile Include="Assets\TransformSynchronizer.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />

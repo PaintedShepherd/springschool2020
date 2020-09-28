@@ -91,13 +91,13 @@ GameObject:
   m_Component:
   - component: {fileID: 6627114590620260619}
   - component: {fileID: 3326636305751363149}
-  - component: {fileID: 4470668258172008823}
   - component: {fileID: 6867772863061235213}
   - component: {fileID: 3423797259709125806}
   - component: {fileID: 8784164203101206832}
   - component: {fileID: 1295301905840347960}
   - component: {fileID: 1368097542068493590}
   - component: {fileID: 5932680671249871172}
+  - component: {fileID: 7957251228161118292}
   m_Layer: 0
   m_Name: Head
   m_TagString: Avatar
@@ -139,25 +139,10 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   ObservedComponents:
-  - {fileID: 4470668258172008823}
+  - {fileID: 7957251228161118292}
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &4470668258172008823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4223980163881111791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizePosition: 1
-  m_SynchronizeRotation: 1
-  m_SynchronizeScale: 0
 --- !u!65 &6867772863061235213
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -367,6 +352,18 @@ MonoBehaviour:
   useOnAudioFilterRead: 0
   trySamplingRateMatch: 0
   useMicrophoneTypeFallback: 1
+--- !u!114 &7957251228161118292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223980163881111791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee756a9e5cfe2de43abac6563d578715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4898486600903275735
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,7 +374,7 @@ GameObject:
   m_Component:
   - component: {fileID: 463422461417252698}
   - component: {fileID: 6355369999918834538}
-  - component: {fileID: 3014571063365197842}
+  - component: {fileID: 5997423810614910149}
   m_Layer: 0
   m_Name: LeftControllerModel
   m_TagString: Avatar
@@ -419,11 +416,11 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   ObservedComponents:
-  - {fileID: 3014571063365197842}
+  - {fileID: 5997423810614910149}
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &3014571063365197842
+--- !u!114 &5997423810614910149
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -432,12 +429,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4898486600903275735}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Script: {fileID: 11500000, guid: ee756a9e5cfe2de43abac6563d578715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SynchronizePosition: 1
-  m_SynchronizeRotation: 1
-  m_SynchronizeScale: 0
 --- !u!1 &5137015536739756135
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,7 +523,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2032632336215825204}
   - component: {fileID: 2948351683688975782}
-  - component: {fileID: 3181907881088892597}
+  - component: {fileID: 4791150216410628919}
   m_Layer: 0
   m_Name: RightControllerModel
   m_TagString: Avatar
@@ -571,11 +565,11 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   ObservedComponents:
-  - {fileID: 3181907881088892597}
+  - {fileID: 4791150216410628919}
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &3181907881088892597
+--- !u!114 &4791150216410628919
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -584,12 +578,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5174387304172694905}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Script: {fileID: 11500000, guid: ee756a9e5cfe2de43abac6563d578715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SynchronizePosition: 1
-  m_SynchronizeRotation: 1
-  m_SynchronizeScale: 0
 --- !u!1 &7064065951182912205
 GameObject:
   m_ObjectHideFlags: 0
@@ -766,6 +757,7 @@ GameObject:
   - component: {fileID: 3312583932176583732}
   - component: {fileID: 3329255741192919005}
   - component: {fileID: 5443088923316462449}
+  - component: {fileID: 7234271572821873206}
   m_Layer: 0
   m_Name: Avatar
   m_TagString: Untagged
@@ -824,13 +816,28 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   observableSearch: 0
-  Synchronization: 0
+  Synchronization: 3
   OwnershipTransfer: 0
   ObservedComponents:
-  - {fileID: 0}
+  - {fileID: 7234271572821873206}
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &7234271572821873206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8824947932612079534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
 --- !u!1001 &405744683466268520
 PrefabInstance:
   m_ObjectHideFlags: 0
