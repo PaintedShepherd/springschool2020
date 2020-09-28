@@ -26,10 +26,10 @@ public class TransformSynchronizer : MonoBehaviourPun, IPunObservable
             stream.SendNext(this.transform.position);
             stream.SendNext(this.transform.rotation);
 
-            if(rigidbody)
+            if (rigidbody)
             {
-                stream.SendNext(rigidbody.isKinematic);
-                stream.SendNext(rigidbody.useGravity);
+                rigidbody.isKinematic = false;
+                rigidbody.useGravity = true;
             }
         }
         else
@@ -39,8 +39,8 @@ public class TransformSynchronizer : MonoBehaviourPun, IPunObservable
 
             if(rigidbody)
             {
-                rigidbody.isKinematic = (bool)stream.ReceiveNext();
-                rigidbody.useGravity = (bool)stream.ReceiveNext();
+                rigidbody.isKinematic = true;
+                rigidbody.useGravity = false;
             }
         }
     }
