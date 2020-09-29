@@ -55,6 +55,15 @@ public class TriggerEvents : MonoBehaviour
         }
     }
 
+    public void TeleportGameObjects(Transform newPosition)
+    {
+        foreach (GameObject triggeredObject in triggeredObjects)
+        {
+            triggeredObject.transform.position = newPosition.position;
+            triggeredObject.transform.rotation = newPosition.rotation;
+        }
+    }
+
     public void ChangeMaterialOfObject(Material material)
     {
         foreach (GameObject triggeredObject in triggeredObjects)

@@ -25,6 +25,13 @@ public class SpawnEvent : MonoBehaviour
 
     public void SpawnObject()
     {
-        PhotonNetwork.Instantiate(prefab.name, spawnPosition.position, spawnPosition.rotation, 0, null);
+        if (PhotonNetwork.IsConnected)
+        {
+            PhotonNetwork.Instantiate(prefab.name, spawnPosition.position, spawnPosition.rotation, 0, null);
+        }
+        else
+        {
+            Instantiate(prefab, spawnPosition.position, spawnPosition.rotation, null);
+        }
     }
 }

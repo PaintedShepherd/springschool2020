@@ -11,7 +11,7 @@ public class ShootingEvent : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(bulletSpawnPoint == null)
+        if (bulletSpawnPoint == null)
         {
             bulletSpawnPoint = this.transform;
         }
@@ -25,8 +25,17 @@ public class ShootingEvent : MonoBehaviour
 
     public void Shoot()
     {
-        GameObject newBullet = PhotonNetwork.Instantiate(bullet.name, bulletSpawnPoint.position, bulletSpawnPoint.rotation, 0, null);
+        GameObject newBullet;
 
-        newBullet.GetComponent<Rigidbody>().AddForce(bulletSpawnPoint.forward*velocity, ForceMode.Impulse);
+        if (PhotonNetwork.IsConnected)
+        {
+            newBullet = PhotonNetwork.Instantiate(bullet.name, bulletSpawnPoint.position, bulletSpawnPoint.rotation, 0, null);
+        }
+        else
+        {
+            newBullet = GameObject.Instantiate(bullet, bulletSpawnPoint.position, bulletSpawnPoint.rotation, null);
+        }
+
+        newBullet.GetComponent<Rigidbody>().AddForce(bulletSpawnPoint.forward * velocity, ForceMode.Impulse);
     }
 }

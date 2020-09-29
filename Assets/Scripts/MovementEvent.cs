@@ -15,11 +15,12 @@ public class MovementEvent : MonoBehaviour
     private float distCovered;
     private float fractionOfJourney;
     private float journeyLength;
-    private float startTime;    
-    
+    private float startTime;
+
     // Start is called before the first frame update
     void Awake()
     {
+        moveSpeed = moveSpeed / 10.0f;
         GameObject startPosition = new GameObject();
         startPosition.transform.position = this.transform.position;
         startPosition.transform.rotation = this.transform.rotation;
