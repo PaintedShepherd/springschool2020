@@ -51,7 +51,7 @@ public class TriggerEvents : MonoBehaviour
     {
         foreach (GameObject triggeredObject in triggeredObjects)
         {
-            triggeredObject.tag = newTag;
+            triggeredObject.GetComponent<TagEvent>().ChangeTag(newTag);
         }
     }
 
@@ -59,7 +59,7 @@ public class TriggerEvents : MonoBehaviour
     {
         foreach (GameObject triggeredObject in triggeredObjects)
         {
-            triggeredObject.GetComponent<Renderer>().material = material;
+            triggeredObject.GetComponent<ColorEvent>().ChangeMaterial(material);
         }
     }
 

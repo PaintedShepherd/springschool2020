@@ -139,6 +139,8 @@
     <Compile Include="Assets\ShootingEvent.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
     <Compile Include="Assets\Scripts\Autonomous UI\LayoutElementMatchSize.cs" />
+    <Compile Include="Assets\RigidbodySynchronizer.cs" />
+    <Compile Include="Assets\TagEvent.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />

@@ -6,14 +6,14 @@ using UnityEngine;
 public class SpawnEvent : MonoBehaviour
 {
     public GameObject prefab;
-    public Transform transform;
+    public Transform spawnPosition;
 
     // Start is called before the first frame update
     void Start()
     {
         if (transform == null)
         {
-            this.transform = this.gameObject.transform;
+            this.spawnPosition = this.gameObject.transform;
         }
     }
 
@@ -25,6 +25,6 @@ public class SpawnEvent : MonoBehaviour
 
     public void SpawnObject()
     {
-        PhotonNetwork.Instantiate(prefab.name, transform.position, transform.rotation, 0, null);
+        PhotonNetwork.Instantiate(prefab.name, spawnPosition.position, spawnPosition.rotation, 0, null);
     }
 }
