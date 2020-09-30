@@ -81,6 +81,7 @@
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoProximityVoiceChat\Scripts\ChangeColor.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\CharacterInstantiation.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\Highlighter.cs" />
+    <Compile Include="Assets\TagEvent.cs" />
     <Compile Include="Assets\SpawnEvent.cs" />
     <Compile Include="Assets\Scripts\Autonomous UI\DocLinkButton.cs" />
     <Compile Include="Assets\Scripts\Autonomous UI\Generic\ToggleExpand.cs" />
@@ -101,6 +102,7 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\DemoVoiceUI.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\RigidbodySynchronizer.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
@@ -139,8 +141,7 @@
     <Compile Include="Assets\ShootingEvent.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
     <Compile Include="Assets\Scripts\Autonomous UI\LayoutElementMatchSize.cs" />
-    <Compile Include="Assets\RigidbodySynchronizer.cs" />
-    <Compile Include="Assets\TagEvent.cs" />
+    <Compile Include="Assets\XRRigColliderHandler.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
