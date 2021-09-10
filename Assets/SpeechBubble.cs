@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpeechBubble : MonoBehaviour
 {
     public int SecondToShow = 0;
+    [TextArea]
     public string text;
 
     // Start is called before the first frame update

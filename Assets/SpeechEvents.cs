@@ -69,7 +69,7 @@ public class SpeechEvents : MonoBehaviour
         {
             this.bubbleIndex++;
             this.ShowBubble(this.bubbleIndex);
-            this.nextTextTime = this.nextTextTime += this.speechBubbles[this.bubbleIndex].SecondToShow;
+            this.nextTextTime += this.speechBubbles[this.bubbleIndex].SecondToShow;
         }
     }
 }
