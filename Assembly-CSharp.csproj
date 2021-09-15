@@ -53,16 +53,16 @@
     <UnityVersion>2020.3.13f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
-    <Compile Include="Assets\TagChanger.cs" />
+    <Compile Include="Assets\Scripts\TagChanger.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoProximityVoiceChat\Scripts\ChangeColor.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\VoiceDemoUI.cs" />
     <Compile Include="Assets\Scripts\MovementProvider.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
-    <Compile Include="Assets\TransformSynchronizer.cs" />
+    <Compile Include="Assets\Scripts\TransformSynchronizer.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoProximityVoiceChat\Scripts\PointersController.cs" />
     <Compile Include="Assets\Samples\XR Plugin Management\3.2.9\Example XR Management implementation\SampleSettings.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\Highlighter.cs" />
@@ -77,14 +77,14 @@
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoProximityVoiceChat\Scripts\ProximityVoiceTrigger.cs" />
     <Compile Include="Assets\Scripts\PhotonLauncher.cs" />
-    <Compile Include="Assets\SpawnEvent.cs" />
+    <Compile Include="Assets\Scripts\SpawnEvent.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\ChangePOV.cs" />
     <Compile Include="Assets\Scripts\ButtonActivationArea.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
     <Compile Include="Assets\Scripts\Autonomous UI\NickNameField.cs" />
     <Compile Include="Assets\Scripts\Autonomous UI\Generic\ToggleExpand.cs" />
-    <Compile Include="Assets\ShootingEvent.cs" />
+    <Compile Include="Assets\Scripts\ShootingEvent.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
     <Compile Include="Assets\Scripts\Autonomous UI\DocLinkButton.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\MicrophoneDropdownFiller.cs" />
@@ -100,12 +100,11 @@
     <Compile Include="Assets\Scripts\Autonomous UI\Generic\StringInputField.cs" />
     <Compile Include="Assets\Scripts\Autonomous UI\SendRateField.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
-    <Compile Include="Assets\SpeechEvents.cs" />
     <Compile Include="Assets\Scripts\PhotonAutoConnector.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\UiExtensions.cs" />
     <Compile Include="Assets\Scripts\Autonomous UI\LayoutElementMatchSize.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\PhotonDemoExtensions.cs" />
-    <Compile Include="Assets\ColorEvent.cs" />
+    <Compile Include="Assets\Scripts\ColorEvent.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
     <Compile Include="Assets\Scripts\BetterLiftOffScript.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
@@ -118,18 +117,16 @@
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoProximityVoiceChat\Scripts\ChangeName.cs" />
     <Compile Include="Assets\Scripts\MaltesAvatar.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\BetterToggle.cs" />
-    <Compile Include="Assets\Scripts\TriggerEvents.cs" />
     <Compile Include="Assets\Scripts\Autonomous UI\CurrentRoom\CurrentRoomIsOpenToggle.cs" />
-    <Compile Include="Assets\SpeechBubble.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
-    <Compile Include="Assets\TagEvent.cs" />
+    <Compile Include="Assets\Scripts\TagEvent.cs" />
     <Compile Include="Assets\Scripts\Autonomous UI\BackgroundTimeOutField.cs" />
     <Compile Include="Assets\Scripts\MovementEvent.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\DemoVoiceUI.cs" />
     <Compile Include="Assets\Samples\XR Plugin Management\3.2.9\Example XR Management implementation\SampleLoader.cs" />
-    <Compile Include="Assets\EventSynchronizer.cs" />
+    <Compile Include="Assets\Scripts\EventSynchronizer.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\SoundsForJoinAndLeave.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
@@ -143,11 +140,38 @@
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\MouseLookHelper.cs" />
     <Compile Include="Assets\Scripts\MaltesVRButton.cs" />
-    <Compile Include="Assets\RigidbodySynchronizer.cs" />
+    <Compile Include="Assets\Scripts\RigidbodySynchronizer.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
-    <Compile Include="Assets\XRRigColliderHandler.cs" />
-    <Compile Include="Assets\Hook.cs" />
+    <Compile Include="Assets\Scripts\XRRigColliderHandler.cs" />
+    <Compile Include="Assets\IllPack\Misc\ComponentManager.cs" />
+    <Compile Include="Assets\IllPack\Springschool2021\Connector.cs" />
+    <Compile Include="Assets\IllPack\Misc\InputEventHandler.cs" />
+    <Compile Include="Assets\IllPack\Misc\FreeLookCamera.cs" />
+    <Compile Include="Assets\IllPack\Misc\TriggerEvents.cs" />
+    <Compile Include="Assets\IllPack\Springschool2021\SpeechEvents.cs" />
+    <Compile Include="Assets\IllPack\Misc\DestroyAfterSeconds.cs" />
+    <Compile Include="Assets\IllPack\Misc\LookAtTarget.cs" />
+    <Compile Include="Assets\IllPack\Misc\PrefabList.cs" />
+    <Compile Include="Assets\IllPack\Springschool2021\RopeControllerSimple.cs" />
+    <Compile Include="Assets\IllPack\XR\MovementProvider.cs" />
+    <Compile Include="Assets\IllPack\Misc\SimpleMoveTo.cs" />
+    <Compile Include="Assets\IllPack\Misc\LookAtPlayer.cs" />
+    <Compile Include="Assets\IllPack\Springschool2021\BezirCurve.cs" />
+    <Compile Include="Assets\IllPack\Springschool2021\ThingCollection.cs" />
+    <Compile Include="Assets\IllPack\Springschool2021\HookWithRope.cs" />
+    <Compile Include="Assets\IllPack\Springschool2021\Thing.cs" />
+    <Compile Include="Assets\IllPack\Misc\Global.cs" />
+    <Compile Include="Assets\IllPack\Misc\MultiFunctionScript.cs" />
+    <Compile Include="Assets\IllPack\Springschool2021\ThingController3D.cs" />
+    <Compile Include="Assets\IllPack\Springschool2021\SpeechBubble.cs" />
+    <Compile Include="Assets\IllPack\Springschool2021\Rope.cs" />
+    <Compile Include="Assets\IllPack\Misc\PositionList.cs" />
+    <Compile Include="Assets\IllPack\Misc\MouseWheelNumber.cs" />
+    <Compile Include="Assets\IllPack\Misc\SimpleRotate.cs" />
+    <Compile Include="Assets\IllPack\Springschool2021\Hook.cs" />
+    <Compile Include="Assets\IllPack\Misc\CounterEvent.cs" />
+    <Compile Include="Assets\IllPack\Misc\CollisionEvents.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
