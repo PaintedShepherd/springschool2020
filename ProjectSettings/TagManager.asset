@@ -10,6 +10,12 @@ TagManager:
   - HotCube
   - Key
   - Fish
+  - Axe
+  - HemdBlau
+  - HemdRot
+  - HemdGelb
+  - "HemdGr\xFCn"
+  - Palme
   layers:
   - Default
   - TransparentFX
