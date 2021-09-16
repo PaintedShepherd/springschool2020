@@ -3,12 +3,7 @@ guid: d32efd38c0736c6468da72e3dc72db9a
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Jet_CmnWing_baseColor
-    second: {fileID: 2800000, guid: 757258c44ebcf1b4183339f629f04745, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
