@@ -7,6 +7,6 @@ public class Add_XR_Interactable : MonoBehaviour
 {
     public void AddComponent()
     {
-        gameObject.AddComponent<XRGrabInteractable>();
+        gameObject.AddComponent<PrecisionGrab>();
     }
 }
