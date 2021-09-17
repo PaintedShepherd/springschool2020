@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
@@ -12,10 +13,11 @@ public class MovementEvent : MonoBehaviour
     private int positionIndex;
     private Transform targetTransform;
 
-    private float distCovered;
-    private float fractionOfJourney;
-    private float journeyLength;
-    private float startTime;
+    private float distCovered = 0f;
+    private float fractionOfJourney = 0f;
+    private float journeyLength = 0f;
+    private float startTime = 0f;
+    private bool move = false;
 
     // Start is called before the first frame update
     void Awake()
@@ -40,12 +42,14 @@ public class MovementEvent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        distCovered = (Time.time - startTime) * moveSpeed;
+        if(move)
+        {
+            distCovered = (Time.time - startTime) * moveSpeed;
 
-        fractionOfJourney = distCovered / journeyLength;
-
-        transform.position = Vector3.Lerp(transform.position, targetTransform.position, fractionOfJourney);
-        transform.rotation = Quaternion.Lerp(transform.rotation, targetTransform.rotation, fractionOfJourney);
+            fractionOfJourney = distCovered / journeyLength;
+            transform.position = Vector3.Lerp(transform.position, targetTransform.position, fractionOfJourney);
+            transform.rotation = Quaternion.Lerp(transform.rotation, targetTransform.rotation, fractionOfJourney);
+        }
     }
 
     public void MoveToNextPosition()
@@ -56,12 +60,7 @@ public class MovementEvent : MonoBehaviour
         {
             positionIndex = 0;
         }
-
-        targetTransform = positions[positionIndex];
-
-        startTime = Time.time;
-
-        journeyLength = Vector3.Distance(transform.position, targetTransform.position);
+        Move();
     }
 
     public void MoveToPreviousPosition()
@@ -72,22 +71,22 @@ public class MovementEvent : MonoBehaviour
         {
             positionIndex = positions.Count - 1;
         }
-
-        targetTransform = positions[positionIndex];
-
-        startTime = Time.time;
-
-        journeyLength = Vector3.Distance(transform.position, targetTransform.position);
+        Move();
     }
 
     public void MoveToPosition(int _positionIndex)
     {
         positionIndex = _positionIndex;
+        Move();
+    }
 
+    private void Move()
+    {
         targetTransform = positions[positionIndex];
 
         startTime = Time.time;
 
         journeyLength = Vector3.Distance(transform.position, targetTransform.position);
+        move = true;
     }
 }
